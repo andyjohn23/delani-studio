@@ -78,7 +78,7 @@ body{
 }
 .what-we-do{
     margin-top: 3%;
-    padding: 10px;
+    line-height: 50px;
     
 }
 .what-we-do h1{
@@ -100,6 +100,7 @@ body{
 .portfolio img{
     max-width: 100%;
     max-height: 100%;
+    margin:10px
 }
 .portfolio h1{
     margin-bottom: 4%;
