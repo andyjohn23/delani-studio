@@ -110,3 +110,52 @@ body{
     font-family: 'Lato', sans-serif;
     text-align: center;
 }
+footer{
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5%;
+    margin-top: 4%;
+}
+.form-group input[type=text]{
+    background:transparent!important;
+    color: white;
+    border: 1px solid white;
+    width: 400px;
+    height: 30px;
+}
+.form-group input[type=email]{
+    background:transparent!important;
+    color: white;
+    border: 1px solid white;
+    width: 400px;
+    height: 30px;
+    margin-left: 40px;
+}
+.form-group ::placeholder{
+    color: white;
+}
+
+#textarea{
+    background:transparent!important;
+    color: white;
+    border: 1px solid white;
+    width: 80%;
+    margin-left: 5%;
+
+
+}
+
+footer h1{
+    margin-bottom: 4%;
+    font-size: 35px;
+    color: white;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+footer button{
+    outline: none;
+    border-radius: 20px;
+}
