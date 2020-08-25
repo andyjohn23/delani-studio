@@ -74,6 +74,7 @@ body{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
+    line-height: 40px;
 }
 .what-we-do{
     margin-top: 3%;
@@ -87,6 +88,24 @@ body{
     font-family: 'Lato', sans-serif;
     font-weight: 900;
 }
-.what-we-do .row{
-    padding: 10px;
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 6%;
+    margin-left:10%;
+    margin-right: 16%; 
+    width: 80%;
+}
+.portfolio img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.portfolio h1{
+    margin-bottom: 4%;
+    font-size: 30px;
+    color: #202020;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }
