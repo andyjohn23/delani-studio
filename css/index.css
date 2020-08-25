@@ -52,6 +52,7 @@ body{
 .about p{
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
 }
 .background2{
     background-image: url("../assets/backgrounds/s_image.jpg");
@@ -60,7 +61,7 @@ body{
     background-repeat: no-repeat;
     text-align: center;
     margin-top: 5%;
-    padding: 9%;
+    padding: 10%;
 }
 .background2 h1{
     font-size: 28px;
@@ -73,4 +74,19 @@ body{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
+}
+.what-we-do{
+    margin-top: 3%;
+    padding: 10px;
+    
+}
+.what-we-do h1{
+    font-size: 28px;
+    color: #202020;
+    margin-bottom: 3%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+.what-we-do .row{
+    padding: 10px;
 }
