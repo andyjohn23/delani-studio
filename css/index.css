@@ -53,3 +53,24 @@ body{
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
+.background2{
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 5%;
+    padding: 9%;
+}
+.background2 h1{
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+.background2 p{
+    font-size: 18px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
