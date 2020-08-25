@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 .background{
     background-image: url("../assets/backgrounds/h_img.jpg");
     background-size: cover;
@@ -33,7 +36,20 @@
 }
 .background #mouse{
     margin-top: 10%;
-    width: 20px;
+    width: 15px;
     height: 30px;
 }
-
+.about{
+    text-align: center;
+    margin-top: 3%;
+}
+.about h1{
+    font-size: 30px;
+    color: #202020;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+}
+.about p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
