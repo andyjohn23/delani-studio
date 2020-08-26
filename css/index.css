@@ -85,7 +85,6 @@ body{
 .what-we-do{
     margin-top: 3%;
     line-height: 50px;
-    
 }
 .what-we-do h1{
     font-size: 28px;
@@ -93,6 +92,18 @@ body{
     margin-bottom: 3%;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
+}
+.what-we-do .title{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.what-we-do p{
+    line-height:normal;
+}
+#design,#development,#product{
+    display: none;
 }
 .portfolio{
     display: flex;
