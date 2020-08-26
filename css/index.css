@@ -104,6 +104,10 @@ body{
 }
 #design,#development,#product{
     display: none;
+    cursor: pointer;
+}
+.img-design,.img-development,.img-product{
+    cursor: pointer;
 }
 .portfolio{
     display: flex;

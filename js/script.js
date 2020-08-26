@@ -51,7 +51,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $(".img-design").click(function(){
-        $("#img-design").slideDown(1200).hide(1000);
+        $(".img-design").slideDown(1200).hide(1000);
         $("#design").show();
     });
     $("#design").click(function(){
@@ -62,7 +62,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $(".img-development").click(function(){
-        $("#img-development").slideDown(1200).hide(1000);
+        $(".img-development").slideDown(1200).hide(1000);
         $("#development").show();
     });
     $("#development").click(function(){
@@ -73,11 +73,11 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $(".img-product").click(function(){
-        $("#img-product").slideDown(1200).hide(1000);
+        $(".img-product").slideDown(1200).hide(1000);
         $("#product").show();
     });
     $("#product").click(function(){
      $("#product").slideUp(1200);
-      $("#product").slideDown(1200);
+      $(".img-product").slideDown(1200);
     });
 });
