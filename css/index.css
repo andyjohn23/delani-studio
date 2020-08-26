@@ -103,7 +103,7 @@ body{
 .portfolio img{
     max-width: 100%;
     max-height: 100%;
-    margin:10px
+    margin:15px;
 }
 .portfolio h1{
     margin-bottom: 4%;
@@ -139,7 +139,6 @@ footer{
 .form-group ::placeholder{
     color: white;
 }
-
 #textarea{
     background:transparent!important;
     color: white;
@@ -172,4 +171,9 @@ footer button{
 .social p{
     font-size: 13px;
     color: black;
+}
+.carousel-caption p{
+   margin-top: -40%;
+   color: white;
+   font-size: 20px;
 }
