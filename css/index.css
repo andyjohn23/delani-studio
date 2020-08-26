@@ -39,6 +39,10 @@ body{
     width: 15px;
     height: 30px;
 }
+#mouse{
+    animation: shakeY 2s infinite;
+    cursor: pointer;
+}
 .about{
     text-align: center;
     margin-top: 3%;
@@ -146,7 +150,6 @@ footer{
 
 
 }
-
 footer h1{
     margin-bottom: 4%;
     font-size: 35px;
@@ -158,4 +161,16 @@ footer h1{
 footer button{
     outline: none;
     border-radius: 20px;
+}
+.social{
+    margin-top: 3%;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.social p{
+    font-size: 13px;
+    color: black;
 }
