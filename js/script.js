@@ -81,3 +81,20 @@ $(document).ready(function(){
       $(".img-product").slideDown(1200);
     });
 });
+
+
+$(document).ready(function(){
+    $("form#form").submit(function(event){
+      // event.preventDefault();
+      var name = $("input#MERGE1").val();
+      var email = $("input#MERGE0").val();
+      var message = $("textarea#textarea").val();
+      if ($("input#MERGE1").val() && $("input#MERGE0").val()){
+        alert (name + ", Thank you for Subscribing to Delani Studio.");
+      }
+      else {
+        alert("Please provide your credentials!");
+      }
+      
+    });
+});
