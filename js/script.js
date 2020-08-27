@@ -100,4 +100,3 @@ $(document).ready(function(){
     });
 });
 
-id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/0f7079b2c44b8bf2f7ab44492/108cd6e12eef8e49caafadb61.js");
