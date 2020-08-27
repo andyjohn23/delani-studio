@@ -85,16 +85,19 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("form#form").submit(function(event){
-      // event.preventDefault();
       var name = $("input#MERGE1").val();
       var email = $("input#MERGE0").val();
       var message = $("textarea#textarea").val();
       if ($("input#MERGE1").val() && $("input#MERGE0").val()){
-        alert (name + ", Thank you for Subscribing to Delani Studio.");
+        swal(name + ", Thank you for Subscribing to Delani Studio.");
       }
       else {
-        alert("Please provide your credentials!");
+        swal("Please provide your credentials!");
+        event.preventDefault();
+        return false;
       }
       
     });
 });
+
+id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/0f7079b2c44b8bf2f7ab44492/108cd6e12eef8e49caafadb61.js");
