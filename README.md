@@ -13,7 +13,7 @@
 ## SETUP INSTRUCTION
    1. open the terminal(ctrl + alt + T)
    1. git clone https://github.com/andyjohn23/delani-studio
-   1. cd akan-repo
+   1. cd delani-studio
    1. code . in the terminal to open visual studio code
 
 ## BDD
