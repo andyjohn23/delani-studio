@@ -6,7 +6,7 @@
   [Andrew John](https://andyjohn23.github.io/portfolio-repo/)
 
 ## SNEAK PEAK
-   <img src="assests/delani.jpg" alt="background">
+   <img src="assests/delani.jpg" width="800px" height="400px">
    [Delani Studio](https://andyjohn23.github.io/delani-studio/)
    
 ## SETUP INSTRUCTION
